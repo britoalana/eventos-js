@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento teclado</title>
+</head>
+<body>
+    <!-- Eventos do teclado
+    - onkeydown = quando a tecla é pressionada
+    - onkeyup = quando a tecla é liberada
+    - onkeypress = acontece entre os eventos onkeydown e onkeyup
+-->
+    <input onkeypress="acao()" type="text">
+    <script>
+        function acao(){
+            console.log('Evento disparado')
+        }
+    </script>
+</body>
+</html>
